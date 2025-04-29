@@ -3,12 +3,14 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
-  --greenBorder: #8BAEAC
+  --greenBorder: #206460;
+  --linkHover: #126d8a;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-linkHover: var(--linkHover);
   --color-greeenborder: var(--greenBorder);
   --font-sans: var(--font-inter-sans);
 }
